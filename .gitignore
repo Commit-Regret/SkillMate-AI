@@ -33,6 +33,7 @@ env/
 
 # API keys and sensitive data
 **/api_keys.json
+**/api_keys.txt
 **/secrets.json
 **/config/secrets.py
 
@@ -45,6 +46,11 @@ env/
 **/test_report.json
 **/test_results.log
 **/memory_test_results_*/
+**/agent_results_*/
+**/demo_results_*/
+*MEMORY_REPORT.md
+*memory_results.json
+*memory_context_output.txt
 
 # Vector stores and embeddings
 **/vector_db/
