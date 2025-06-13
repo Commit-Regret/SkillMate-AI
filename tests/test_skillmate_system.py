@@ -1,41 +1,26 @@
+#!/usr/bin/env python3
 """
-Comprehensive Testing Suite for SkillMate AI System
-Tests all agents, workflows, and API functions with dummy data
+Comprehensive test suite for the SkillMate AI system.
 """
 
 import os
 import sys
 import json
-import time
 import logging
-import traceback
-from datetime import datetime
+import time
 from typing import Dict, Any, List, Optional
-from io import BytesIO
+from datetime import datetime
 
-# Add the parent directory to the path to import modules
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+# Add parent directory to path to import skillmate modules
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-# Import all the main functions
 try:
-    from main import (
-        general_ai_response,
-        upload_and_query_resume,
-        get_roadmap,
-        suggest_project_plan,
-        suggest_matches,
-        team_chat_ai,
-        GeneralAssistantAgent,
-        RoadmapGeneratorAgent,
-        ProjectPlannerAgent,
-        SmartMatcherAgent,
-        TeamAssistantAgent
-    )
+    from skillmate.ai.main import SkillMateAI
     print("✅ Successfully imported main functions")
 except ImportError as e:
     print(f"❌ Import error: {e}")
     print("Available files in directory:")
-    for file in os.listdir(os.path.dirname(os.path.abspath(__file__))):
+    for file in os.listdir():
         if file.endswith('.py'):
             print(f"  - {file}")
     sys.exit(1)
