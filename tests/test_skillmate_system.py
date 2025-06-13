@@ -8,8 +8,11 @@ import sys
 import json
 import logging
 import time
+import traceback
+import uuid
 from typing import Dict, Any, List, Optional
 from datetime import datetime
+from io import BytesIO, StringIO
 
 # Add parent directory to path to import skillmate modules
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -37,6 +40,22 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
+# Import all the main functions
+from skillmate.ai.main import (
+    general_ai_response,
+    upload_and_query_resume,
+    get_roadmap,
+    suggest_project_plan,
+    suggest_matches,
+    team_chat_ai
+)
+
+# Import agents for direct testing
+from skillmate.ai.agents.general_assistant import GeneralAssistantAgent
+from skillmate.ai.agents.roadmap_generator import RoadmapGeneratorAgent
+from skillmate.ai.agents.project_planner import ProjectPlannerAgent
+from skillmate.ai.agents.smart_matcher import SmartMatcherAgent
+from skillmate.ai.agents.team_assistant import TeamAssistantAgent
 
 class SkillMateAITester:
     """Comprehensive testing suite for SkillMate AI system."""
