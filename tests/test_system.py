@@ -17,7 +17,7 @@ from io import BytesIO, StringIO
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Import all the main functions
-from main import (
+from skillmate.ai.main import (
     general_ai_response,
     upload_and_query_resume,
     get_roadmap,

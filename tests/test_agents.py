@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 def test_general_assistant():
     """Test the General Assistant agent."""
     try:
-        from agents.general_assistant import GeneralAssistantAgent
+        from skillmate.ai.agents.general_assistant import GeneralAssistantAgent
         
         logger.info("Testing General Assistant Agent...")
         agent = GeneralAssistantAgent()
@@ -61,7 +61,7 @@ def test_general_assistant():
 def test_roadmap_generator():
     """Test the Roadmap Generator agent."""
     try:
-        from agents.roadmap_generator import RoadmapGeneratorAgent
+        from skillmate.ai.agents.roadmap_generator import RoadmapGeneratorAgent
         
         logger.info("Testing Roadmap Generator Agent...")
         agent = RoadmapGeneratorAgent()
@@ -109,7 +109,7 @@ def test_roadmap_generator():
 def test_project_planner():
     """Test the Project Planner agent."""
     try:
-        from agents.project_planner import ProjectPlannerAgent
+        from skillmate.ai.agents.project_planner import ProjectPlannerAgent
         
         logger.info("Testing Project Planner Agent...")
         agent = ProjectPlannerAgent()
@@ -168,7 +168,7 @@ def test_project_planner():
 def test_smart_matcher():
     """Test the Smart Matcher agent."""
     try:
-        from agents.smart_matcher import SmartMatcherAgent
+        from skillmate.ai.agents.smart_matcher import SmartMatcherAgent
         
         logger.info("Testing Smart Matcher Agent...")
         agent = SmartMatcherAgent()
@@ -236,7 +236,7 @@ def test_smart_matcher():
 def test_team_assistant():
     """Test the Team Assistant agent."""
     try:
-        from agents.team_assistant import TeamAssistantAgent
+        from skillmate.ai.agents.team_assistant import TeamAssistantAgent
         
         logger.info("Testing Team Assistant Agent...")
         agent = TeamAssistantAgent()

@@ -22,9 +22,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Import required modules
-from memory.conversation_memory import ConversationMemoryManager
-from schemas.message_schemas import MessageSchema
-from config.model_provider import ModelProvider
+from skillmate.ai.memory.conversation_memory import ConversationMemoryManager
+from skillmate.ai.schemas.message_schemas import MessageSchema
+from skillmate.ai.config.model_provider import ModelProvider
 
 class SimpleMemoryTest:
     """Simple class to test memory functionality."""

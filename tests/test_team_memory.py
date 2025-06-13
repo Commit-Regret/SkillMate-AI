@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 def test_team_assistant_memory():
     """Test the Team Assistant agent's memory and context functionality."""
     try:
-        from agents.team_assistant import TeamAssistantAgent
+        from skillmate.ai.agents.team_assistant import TeamAssistantAgent
         
         logger.info("\n=== Testing Team Assistant Memory ===\n")
         agent = TeamAssistantAgent()

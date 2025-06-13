@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 def test_general_assistant_memory():
     """Test the General Assistant agent's memory functionality."""
     try:
-        from agents.general_assistant import GeneralAssistantAgent
+        from skillmate.ai.agents.general_assistant import GeneralAssistantAgent
         
         logger.info("\n=== Testing General Assistant Memory ===\n")
         agent = GeneralAssistantAgent()
@@ -82,7 +82,7 @@ def test_general_assistant_memory():
 def test_team_assistant_memory():
     """Test the Team Assistant agent's memory and context functionality."""
     try:
-        from agents.team_assistant import TeamAssistantAgent
+        from skillmate.ai.agents.team_assistant import TeamAssistantAgent
         
         logger.info("\n=== Testing Team Assistant Memory ===\n")
         agent = TeamAssistantAgent()
@@ -158,8 +158,8 @@ def test_team_assistant_memory():
 def test_conversation_memory_manager():
     """Test the ConversationMemoryManager directly."""
     try:
-        from memory.conversation_memory import ConversationMemoryManager
-        from schemas.message_schemas import MessageSchema
+        from skillmate.ai.memory.conversation_memory import ConversationMemoryManager
+        from skillmate.ai.schemas.message_schemas import MessageSchema
         
         logger.info("\n=== Testing Conversation Memory Manager ===\n")
         
