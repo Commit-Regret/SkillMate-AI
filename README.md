@@ -107,13 +107,12 @@ response = skillmate.suggest_matches("user_id")
 Note: Tests must be run from the project root directory:
 
 ```bash
-# Run all tests
+# Run all tests using the test runner
+python tests/run_tests.py
+
+# Run specific test modules
 python -m tests.test_skillmate_system
-
-# Test memory functionality
 python -m tests.test_memory_context
-
-# Test team memory
 python -m tests.test_team_memory
 ```
 
@@ -123,6 +122,8 @@ python -m tests.test_team_memory
 SkillMate-AI/
 ├── docs/                  # Documentation files
 ├── tests/                 # Test scripts and examples
+│   ├── run_tests.py       # Test runner script
+│   └── test_*.py          # Individual test files
 ├── skillmate/             # Main package
 │   ├── ai/                # AI system
 │   │   ├── agents/        # Agent implementations

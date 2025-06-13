@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Comprehensive Testing Suite for SkillMate AI System
 Tests all agents, workflows, and API functions with dummy data
@@ -12,8 +13,8 @@ from datetime import datetime
 from typing import Dict, Any, List
 from io import BytesIO, StringIO
 
-# Add the ai module to the path
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+# Add parent directory to path to import skillmate modules
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Import all the main functions
 from main import (
