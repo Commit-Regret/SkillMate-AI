@@ -1,0 +1,115 @@
+{
+  "target_user": {
+    "user_id": "user1",
+    "name": "Jordan",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "interests": [
+      "Web Development",
+      "UI/UX",
+      "Open Source"
+    ],
+    "bio": "Full-stack developer with 3 years of experience"
+  },
+  "candidate_users": [
+    {
+      "user_id": "user2",
+      "name": "Taylor",
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL"
+      ],
+      "interests": [
+        "Backend Development",
+        "API Design",
+        "DevOps"
+      ],
+      "bio": "Backend developer specializing in Python"
+    },
+    {
+      "user_id": "user3",
+      "name": "Alex",
+      "skills": [
+        "UI/UX Design",
+        "Figma",
+        "CSS"
+      ],
+      "interests": [
+        "Web Design",
+        "User Research",
+        "Accessibility"
+      ],
+      "bio": "UI/UX designer with focus on accessible interfaces"
+    },
+    {
+      "user_id": "user4",
+      "name": "Casey",
+      "skills": [
+        "JavaScript",
+        "Vue.js",
+        "Firebase"
+      ],
+      "interests": [
+        "Web Development",
+        "Mobile Apps",
+        "Real-time Applications"
+      ],
+      "bio": "Frontend developer with interest in real-time applications"
+    }
+  ],
+  "matches": [
+    {
+      "user_id": "user4",
+      "name": "Casey",
+      "match_score": 59,
+      "skills": [
+        "JavaScript",
+        "Vue.js",
+        "Firebase"
+      ],
+      "interests": [
+        "Web Development",
+        "Mobile Apps",
+        "Real-time Applications"
+      ],
+      "explanation": "Despite some skill overlap in JavaScript, your complementary expertise in React/Node.js and Vue.js/Firebase offers a strong foundation for building robust web applications.  Shared interest in web development ensures a common goal, while your diverse skillsets will allow you to tackle projects with a broader range of technologies and approaches.  This combination promises a highly productive and successful collaboration."
+    },
+    {
+      "user_id": "user3",
+      "name": "Alex",
+      "match_score": 52,
+      "skills": [
+        "UI/UX Design",
+        "Figma",
+        "CSS"
+      ],
+      "interests": [
+        "Web Design",
+        "User Research",
+        "Accessibility"
+      ],
+      "explanation": "Despite having seemingly disparate interests, your complementary skills in web development (JavaScript, React) and UI/UX design (Figma, CSS) make you a strong team.  Your combined expertise ensures a seamless transition from design to development, leading to a high-quality, user-centered product.  The high overall compatibility score reflects this powerful synergy."
+    },
+    {
+      "user_id": "user2",
+      "name": "Taylor",
+      "match_score": 44,
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL"
+      ],
+      "interests": [
+        "Backend Development",
+        "API Design",
+        "DevOps"
+      ],
+      "explanation": "Despite differing primary skillsets, your complementary expertise in front-end (JavaScript, React) and back-end (Python, Django) development makes you an ideal pair for building full-stack applications.  While your specific interests vary, a shared passion for building and improving applications will drive successful collaboration.  Your high overall compatibility score reflects the significant potential for a productive partnership."
+    }
+  ],
+  "time_taken": "10.82 seconds"
+}

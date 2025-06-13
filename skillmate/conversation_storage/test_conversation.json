@@ -1,0 +1,34 @@
+{
+  "conversation_id": "test_conversation",
+  "messages": [
+    {
+      "content": "Hello",
+      "sender_id": "user1",
+      "timestamp": "2025-06-13T23:53:38.954787",
+      "role": "user",
+      "metadata": {}
+    },
+    {
+      "content": "Hi there! How can I help you?",
+      "sender_id": "assistant",
+      "timestamp": "2025-06-13T23:53:38.954793",
+      "role": "assistant",
+      "metadata": {}
+    },
+    {
+      "content": "I need help with a project",
+      "sender_id": "user1",
+      "timestamp": "2025-06-13T23:53:38.954794",
+      "role": "user",
+      "metadata": {}
+    },
+    {
+      "content": "Sure, what kind of project?",
+      "sender_id": "assistant",
+      "timestamp": "2025-06-13T23:53:38.954795",
+      "role": "assistant",
+      "metadata": {}
+    }
+  ],
+  "metadata": {}
+}

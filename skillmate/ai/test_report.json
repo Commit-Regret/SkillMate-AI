@@ -1,0 +1,219 @@
+{
+  "test_summary": {
+    "total_tests": 17,
+    "passed_tests": 17,
+    "failed_tests": 0,
+    "success_rate": "100.0%",
+    "total_duration": "115.44s",
+    "timestamp": "2025-06-14T02:42:40.630515"
+  },
+  "test_results": [
+    {
+      "test_name": "Resume Query Test 1",
+      "success": true,
+      "details": "Query: 'What are the candidate's main programming skills?' | Answer: I processed your resume but couldn't find specific information related to your question. Could you t...",
+      "duration": 1.8433458805084229,
+      "timestamp": "2025-06-14T02:39:28.604772",
+      "metadata": {
+        "query": "What are the candidate's main programming skills?",
+        "filename": "test_resume.txt"
+      }
+    },
+    {
+      "test_name": "Resume Query Test 2",
+      "success": true,
+      "details": "Query: 'How many years of experience does this person have?' | Answer: I processed your resume but couldn't find specific information related to your question. Could you t...",
+      "duration": 1.7435040473937988,
+      "timestamp": "2025-06-14T02:39:30.349340",
+      "metadata": {
+        "query": "How many years of experience does this person have?",
+        "filename": "test_resume.txt"
+      }
+    },
+    {
+      "test_name": "Resume Query Test 3",
+      "success": true,
+      "details": "Query: 'What projects has the candidate worked on?' | Answer: I processed your resume but couldn't find specific information related to your question. Could you t...",
+      "duration": 1.7342877388000488,
+      "timestamp": "2025-06-14T02:39:32.084600",
+      "metadata": {
+        "query": "What projects has the candidate worked on?",
+        "filename": "test_resume.txt"
+      }
+    },
+    {
+      "test_name": "Resume Query Test 4",
+      "success": true,
+      "details": "Query: 'What technologies is the candidate familiar with?' | Answer: I processed your resume but couldn't find specific information related to your question. Could you t...",
+      "duration": 1.7000229358673096,
+      "timestamp": "2025-06-14T02:39:33.785621",
+      "metadata": {
+        "query": "What technologies is the candidate familiar with?",
+        "filename": "test_resume.txt"
+      }
+    },
+    {
+      "test_name": "Resume Query Test 5",
+      "success": true,
+      "details": "Query: 'What is the candidate's educational background?' | Answer: I processed your resume but couldn't find specific information related to your question. Could you t...",
+      "duration": 1.7492640018463135,
+      "timestamp": "2025-06-14T02:39:35.535899",
+      "metadata": {
+        "query": "What is the candidate's educational background?",
+        "filename": "test_resume.txt"
+      }
+    },
+    {
+      "test_name": "Team Chat - Team Alpha (Message 1)",
+      "success": true,
+      "details": "Response type: planning | Response: This sprint plan is excellent and incorporates man...",
+      "duration": 14.843534469604492,
+      "timestamp": "2025-06-14T02:41:08.782888",
+      "metadata": {
+        "team_id": "team_alpha",
+        "message": "How should we structure our sprint for the next 2 weeks?",
+        "message_type": "planning",
+        "has_workflow_metadata": true,
+        "has_suggestions": true,
+        "response_length": 3566
+      }
+    },
+    {
+      "test_name": "Team Chat - Team Alpha (Message 2)",
+      "success": true,
+      "details": "Response type: technical | Response: This is a good, detailed architectural overview.  ...",
+      "duration": 15.950160264968872,
+      "timestamp": "2025-06-14T02:41:24.733949",
+      "metadata": {
+        "team_id": "team_alpha",
+        "message": "What's the best architecture for a real-time chat application?",
+        "message_type": "technical",
+        "has_workflow_metadata": true,
+        "has_suggestions": true,
+        "response_length": 3998
+      }
+    },
+    {
+      "test_name": "Team Chat - Team Alpha (Message 3)",
+      "success": true,
+      "details": "Response type: planning | Response: Okay, let's refine the risk assessment, focusing o...",
+      "duration": 12.97467827796936,
+      "timestamp": "2025-06-14T02:41:37.709975",
+      "metadata": {
+        "team_id": "team_alpha",
+        "message": "Can you help us identify potential risks in our project timeline?",
+        "message_type": "planning",
+        "has_workflow_metadata": true,
+        "has_suggestions": true,
+        "response_length": 3312
+      }
+    },
+    {
+      "test_name": "Team Chat - Team Alpha (Message 4)",
+      "success": true,
+      "details": "Response type: technical | Response: Okay, let's refine the task allocation strategy, i...",
+      "duration": 13.999501466751099,
+      "timestamp": "2025-06-14T02:41:51.711464",
+      "metadata": {
+        "team_id": "team_alpha",
+        "message": "We need to allocate tasks among team members effectively",
+        "message_type": "technical",
+        "has_workflow_metadata": true,
+        "has_suggestions": true,
+        "response_length": 2844
+      }
+    },
+    {
+      "test_name": "Team Chat - Team Beta (Message 1)",
+      "success": true,
+      "details": "Response type: planning | Response: Okay, Your Team.  Let's build on our previous conv...",
+      "duration": 11.836386442184448,
+      "timestamp": "2025-06-14T02:42:03.548595",
+      "metadata": {
+        "team_id": "team_beta",
+        "message": "How should we structure our sprint for the next 2 weeks?",
+        "message_type": "planning",
+        "has_workflow_metadata": true,
+        "has_suggestions": true,
+        "response_length": 2869
+      }
+    },
+    {
+      "test_name": "Team Chat - Team Beta (Message 2)",
+      "success": true,
+      "details": "Response type: technical | Response: Okay, Your Team.  Let's clarify the best architect...",
+      "duration": 13.172477722167969,
+      "timestamp": "2025-06-14T02:42:16.721748",
+      "metadata": {
+        "team_id": "team_beta",
+        "message": "What's the best architecture for a real-time chat application?",
+        "message_type": "technical",
+        "has_workflow_metadata": true,
+        "has_suggestions": true,
+        "response_length": 2495
+      }
+    },
+    {
+      "test_name": "Team Chat - Team Beta (Message 3)",
+      "success": true,
+      "details": "Response type: planning | Response: Okay, Your Team.  Building on our previous discuss...",
+      "duration": 12.116092443466187,
+      "timestamp": "2025-06-14T02:42:28.838821",
+      "metadata": {
+        "team_id": "team_beta",
+        "message": "Can you help us identify potential risks in our project timeline?",
+        "message_type": "planning",
+        "has_workflow_metadata": true,
+        "has_suggestions": true,
+        "response_length": 2768
+      }
+    },
+    {
+      "test_name": "Team Chat - Team Beta (Message 4)",
+      "success": true,
+      "details": "Response type: technical | Response: Okay, Your Team.  Given our previous discussions a...",
+      "duration": 11.777888536453247,
+      "timestamp": "2025-06-14T02:42:40.617530",
+      "metadata": {
+        "team_id": "team_beta",
+        "message": "We need to allocate tasks among team members effectively",
+        "message_type": "technical",
+        "has_workflow_metadata": true,
+        "has_suggestions": true,
+        "response_length": 2778
+      }
+    },
+    {
+      "test_name": "Error Handling - general_ai_response",
+      "success": true,
+      "details": "Correctly handled invalid user_id",
+      "duration": 2.2649765014648438e-05,
+      "timestamp": "2025-06-14T02:42:40.623889",
+      "metadata": {}
+    },
+    {
+      "test_name": "Error Handling - get_roadmap",
+      "success": true,
+      "details": "Correctly handled invalid skill",
+      "duration": 1.2159347534179688e-05,
+      "timestamp": "2025-06-14T02:42:40.624684",
+      "metadata": {}
+    },
+    {
+      "test_name": "Error Handling - suggest_project_plan",
+      "success": true,
+      "details": "Correctly handled invalid project_description",
+      "duration": 5.245208740234375e-06,
+      "timestamp": "2025-06-14T02:42:40.625332",
+      "metadata": {}
+    },
+    {
+      "test_name": "Error Handling - suggest_matches",
+      "success": true,
+      "details": "Correctly handled invalid user_id",
+      "duration": 6.9141387939453125e-06,
+      "timestamp": "2025-06-14T02:42:40.626137",
+      "metadata": {}
+    }
+  ]
+}

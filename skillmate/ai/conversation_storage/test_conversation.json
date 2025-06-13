@@ -1,0 +1,62 @@
+{
+  "conversation_id": "test_conversation",
+  "messages": [
+    {
+      "content": "Hello",
+      "sender_id": "user1",
+      "timestamp": "2025-06-14T02:30:47.032441",
+      "role": "user",
+      "metadata": {}
+    },
+    {
+      "content": "Hi there! How can I help you?",
+      "sender_id": "assistant",
+      "timestamp": "2025-06-14T02:30:47.032447",
+      "role": "assistant",
+      "metadata": {}
+    },
+    {
+      "content": "I need help with a project",
+      "sender_id": "user1",
+      "timestamp": "2025-06-14T02:30:47.032452",
+      "role": "user",
+      "metadata": {}
+    },
+    {
+      "content": "Sure, what kind of project?",
+      "sender_id": "assistant",
+      "timestamp": "2025-06-14T02:30:47.032454",
+      "role": "assistant",
+      "metadata": {}
+    },
+    {
+      "content": "Hello",
+      "sender_id": "user1",
+      "timestamp": "2025-06-14T02:37:59.858369",
+      "role": "user",
+      "metadata": {}
+    },
+    {
+      "content": "Hi there! How can I help you?",
+      "sender_id": "assistant",
+      "timestamp": "2025-06-14T02:37:59.858376",
+      "role": "assistant",
+      "metadata": {}
+    },
+    {
+      "content": "I need help with a project",
+      "sender_id": "user1",
+      "timestamp": "2025-06-14T02:37:59.858378",
+      "role": "user",
+      "metadata": {}
+    },
+    {
+      "content": "Sure, what kind of project?",
+      "sender_id": "assistant",
+      "timestamp": "2025-06-14T02:37:59.858380",
+      "role": "assistant",
+      "metadata": {}
+    }
+  ],
+  "metadata": {}
+}

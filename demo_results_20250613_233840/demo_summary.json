@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-06-13 23:40:52",
+  "model_provider": "gemini",
+  "results_directory": "demo_results_20250613_233840",
+  "demos_run": [
+    "General Assistant",
+    "Roadmap Generator",
+    "Project Planner",
+    "Smart Matcher",
+    "Model Provider"
+  ],
+  "system_info": {
+    "python_version": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "win32"
+  }
+}

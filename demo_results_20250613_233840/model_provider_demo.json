@@ -1,0 +1,8 @@
+{
+  "initial_provider": "gemini",
+  "switched_provider": "openai",
+  "embedding_type": "GoogleGenerativeAIEmbeddings",
+  "embedding_dimension": 768,
+  "openai_key_count": 0,
+  "gemini_key_count": 5
+}
